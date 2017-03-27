@@ -1,0 +1,21 @@
+{
+    "name": "allen/xiaomipush",
+    "description": "小米推送",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allen",
+            "email": "allenifox@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XMPush\\": "src/XMPush/"
+        }
+    }
+}
